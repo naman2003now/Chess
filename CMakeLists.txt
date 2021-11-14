@@ -6,6 +6,7 @@ add_executable(${PROJECT_NAME}
     src/Chess.cpp 
     src/Game.cpp 
     src/Renderer.cpp
+    src/Piece.cpp
     src/Smart.cpp
 )
 add_subdirectory(dependencies/SFML)

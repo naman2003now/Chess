@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/naman/sfmlProjects/Chess/build",
+  "command": "/usr/bin/c++ -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -g -o CMakeFiles/Chess.dir/src/Piece.cpp.o -c /home/naman/sfmlProjects/Chess/src/Piece.cpp",
+  "file": "/home/naman/sfmlProjects/Chess/src/Piece.cpp"
+},
+{
+  "directory": "/home/naman/sfmlProjects/Chess/build",
   "command": "/usr/bin/c++ -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -g -o CMakeFiles/Chess.dir/src/Smart.cpp.o -c /home/naman/sfmlProjects/Chess/src/Smart.cpp",
   "file": "/home/naman/sfmlProjects/Chess/src/Smart.cpp"
 },
