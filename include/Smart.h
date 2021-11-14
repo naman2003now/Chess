@@ -1,5 +1,6 @@
 #pragma once
 #include "Renderer.h"
+#include "Pawn.h"
 #include <vector>
 
 class Smart

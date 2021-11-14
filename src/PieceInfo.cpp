@@ -1,2 +1,0 @@
-#include "PieceInfo.h"
-

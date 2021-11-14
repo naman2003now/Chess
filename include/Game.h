@@ -1,5 +1,4 @@
 #pragma once
-#include "Pawn.h"
 #include <vector>
 #include <map>
 #include <string>

@@ -153,27 +153,6 @@ build CMakeFiles/Chess.dir/src/Game.cpp.o: CXX_COMPILER__Chess_Debug /home/naman
   OBJECT_DIR = CMakeFiles/Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
 
-build CMakeFiles/Chess.dir/src/Pawn.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Pawn.cpp || cmake_object_order_depends_target_Chess
-  DEP_FILE = CMakeFiles/Chess.dir/src/Pawn.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
-  OBJECT_DIR = CMakeFiles/Chess.dir
-  OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-
-build CMakeFiles/Chess.dir/src/Piece.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Piece.cpp || cmake_object_order_depends_target_Chess
-  DEP_FILE = CMakeFiles/Chess.dir/src/Piece.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
-  OBJECT_DIR = CMakeFiles/Chess.dir
-  OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-
-build CMakeFiles/Chess.dir/src/PieceInfo.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/PieceInfo.cpp || cmake_object_order_depends_target_Chess
-  DEP_FILE = CMakeFiles/Chess.dir/src/PieceInfo.cpp.o.d
-  FLAGS = -g
-  INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
-  OBJECT_DIR = CMakeFiles/Chess.dir
-  OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-
 build CMakeFiles/Chess.dir/src/Renderer.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Renderer.cpp || cmake_object_order_depends_target_Chess
   DEP_FILE = CMakeFiles/Chess.dir/src/Renderer.cpp.o.d
   FLAGS = -g
@@ -196,7 +175,7 @@ build CMakeFiles/Chess.dir/src/Smart.cpp.o: CXX_COMPILER__Chess_Debug /home/nama
 #############################################
 # Link the executable Chess
 
-build Chess: CXX_EXECUTABLE_LINKER__Chess_Debug CMakeFiles/Chess.dir/src/Chess.cpp.o CMakeFiles/Chess.dir/src/Game.cpp.o CMakeFiles/Chess.dir/src/Pawn.cpp.o CMakeFiles/Chess.dir/src/Piece.cpp.o CMakeFiles/Chess.dir/src/PieceInfo.cpp.o CMakeFiles/Chess.dir/src/Renderer.cpp.o CMakeFiles/Chess.dir/src/Smart.cpp.o | dependencies/SFML/lib/libsfml-graphics-d.so.2.5.1 dependencies/SFML/lib/libsfml-window-d.so.2.5.1 dependencies/SFML/lib/libsfml-system-d.so.2.5.1 || dependencies/SFML/lib/libsfml-graphics-d.so dependencies/SFML/lib/libsfml-system-d.so dependencies/SFML/lib/libsfml-window-d.so dependencies/SFML/lib/libsfml-graphics-d.so dependencies/SFML/lib/libsfml-window-d.so dependencies/SFML/lib/libsfml-system-d.so
+build Chess: CXX_EXECUTABLE_LINKER__Chess_Debug CMakeFiles/Chess.dir/src/Chess.cpp.o CMakeFiles/Chess.dir/src/Game.cpp.o CMakeFiles/Chess.dir/src/Renderer.cpp.o CMakeFiles/Chess.dir/src/Smart.cpp.o | dependencies/SFML/lib/libsfml-graphics-d.so.2.5.1 dependencies/SFML/lib/libsfml-window-d.so.2.5.1 dependencies/SFML/lib/libsfml-system-d.so.2.5.1 || dependencies/SFML/lib/libsfml-graphics-d.so dependencies/SFML/lib/libsfml-system-d.so dependencies/SFML/lib/libsfml-window-d.so dependencies/SFML/lib/libsfml-graphics-d.so dependencies/SFML/lib/libsfml-window-d.so dependencies/SFML/lib/libsfml-system-d.so
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -Wl,-rpath,/home/naman/sfmlProjects/Chess/dependencies/SFML/lib:/home/naman/sfmlProjects/Chess/build/dependencies/SFML/lib  dependencies/SFML/lib/libsfml-graphics-d.so.2.5.1  dependencies/SFML/lib/libsfml-window-d.so.2.5.1  dependencies/SFML/lib/libsfml-system-d.so.2.5.1
