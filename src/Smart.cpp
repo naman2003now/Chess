@@ -33,8 +33,10 @@ std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 		break;
 	case WHITE_ROOK:
 		Rook::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		break;
 	case BLACK_ROOK:
 		Rook::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
+		break;
 	}
 	return possibleMoves;
 }

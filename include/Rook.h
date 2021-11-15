@@ -1,11 +1,12 @@
 #pragma once
+#include <iostream>
 namespace Rook{
     static void addMoves(std::vector<sf::Vector2i>& moves, sf::Vector2i position, bool isWhite, enum_pieces board[8][8]){
         bool north = true;
         bool south = true;
         bool east = true;
         bool west = true;
-
+        if(!isWhite) std::cout << "Fuck, this shit i'm out : " << isWhite << std::endl;
         for(int i = 1; i < 8; i++){
             if(east){
                 if(position.x + i < 8 && position.x + i >= 0 && position.y < 8 && position.y >= 0){
