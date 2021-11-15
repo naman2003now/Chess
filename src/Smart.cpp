@@ -19,6 +19,12 @@ std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 	case WHITE_KNIGHT:
 		Knight::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
 		break;
+	case BLACK_BISHOP:
+		Bishop::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
+		break;
+	case WHITE_BISHOP:
+		Bishop::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		break;
 	}
 	return possibleMoves;
 }

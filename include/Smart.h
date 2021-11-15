@@ -2,6 +2,7 @@
 #include "Renderer.h"
 #include "Pawn.h"
 #include "Knight.h"
+#include "Bishop.h"
 #include <vector>
 
 class Smart
