@@ -13,6 +13,12 @@ std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 	case WHITE_PAWN:
 		Pawn::addMoves(possibleMoves, sf::Vector2i(x, y), true, board, black_enpassant, white_enpassant);
 		break;
+	case BLACK_KNIGHT:
+		Knight::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
+		break;
+	case WHITE_KNIGHT:
+		Knight::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		break;
 	}
 	return possibleMoves;
 }

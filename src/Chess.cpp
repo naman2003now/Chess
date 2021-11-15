@@ -1,8 +1,3 @@
-/*
-	This is the check if gitfetch works
-*/
-
-
 #include "Renderer.h"
 #include "Game.h"
 #include <iostream>
@@ -39,12 +34,12 @@ int main()
 TODO
 	
 	=> Impliment the rules
-
 =>PAWNS
+
+=>KNIGHT
 =>KING
 =>ROOKS
 =>BISHOP
-=>KNIGHT
 =>QUEEN
 
 */

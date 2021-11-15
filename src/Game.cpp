@@ -4,7 +4,7 @@
 
 Game::Game(Renderer &renderer)
 {
-	read_fen("rnbkqnbr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR");
+	read_fen("rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR");
 	ai.makeBoard(board);
 }
 
