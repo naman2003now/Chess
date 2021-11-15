@@ -1,3 +1,8 @@
+/*
+	This is the check if gitfetch works
+*/
+
+
 #include "Renderer.h"
 #include "Game.h"
 #include <iostream>
