@@ -1,4 +1,5 @@
 /.vscode
+/build/dependencies
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
