@@ -1,9 +1,10 @@
 #pragma once
 #include "Renderer.h"
+#include <vector>
 #include "Pawn.h"
 #include "Knight.h"
 #include "Bishop.h"
-#include <vector>
+#include "Queen.h"
 
 class Smart
 {

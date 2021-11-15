@@ -27,6 +27,7 @@ int main()
 		}
 		renderer.update(game.board);
 	}
+	return 0;
 }
 
 

@@ -25,6 +25,12 @@ std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 	case WHITE_BISHOP:
 		Bishop::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
 		break;
+	case BLACK_QUEEN:
+		Queen::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
+		break;
+	case WHITE_QUEEN:
+		Queen::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		break;
 	}
 	return possibleMoves;
 }
@@ -38,7 +44,6 @@ void Smart::move(sf::Vector2i fromHere, sf::Vector2i toHere) // Please make sure
 	}
 	switch (board[fromHere.x][fromHere.y]) {
 	case EMPTY:
-		std::cout << "What the fuck??" << std::endl;
 		break;
 	case BLACK_PAWN:
 		if(abs(fromHere.x - toHere.x) == 1){
