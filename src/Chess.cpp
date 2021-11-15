@@ -35,12 +35,12 @@ int main()
 TODO
 	
 	=> Impliment the rules
-=>PAWNS
-
 =>KNIGHT
+=>QUEEN
+=>PAWNS
+=>BISHOP
+
 =>KING
 =>ROOKS
-=>BISHOP
-=>QUEEN
 
 */

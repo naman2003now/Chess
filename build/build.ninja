@@ -145,8 +145,6 @@ build CMakeFiles/Chess.dir/src/Chess.cpp.o: CXX_COMPILER__Chess_Debug /home/nama
   INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
   OBJECT_DIR = CMakeFiles/Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-  TARGET_COMPILE_PDB = CMakeFiles/Chess.dir/
-  TARGET_PDB = Chess.pdb
 
 build CMakeFiles/Chess.dir/src/Game.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Game.cpp || cmake_object_order_depends_target_Chess
   DEP_FILE = CMakeFiles/Chess.dir/src/Game.cpp.o.d
@@ -154,8 +152,6 @@ build CMakeFiles/Chess.dir/src/Game.cpp.o: CXX_COMPILER__Chess_Debug /home/naman
   INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
   OBJECT_DIR = CMakeFiles/Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-  TARGET_COMPILE_PDB = CMakeFiles/Chess.dir/
-  TARGET_PDB = Chess.pdb
 
 build CMakeFiles/Chess.dir/src/Renderer.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Renderer.cpp || cmake_object_order_depends_target_Chess
   DEP_FILE = CMakeFiles/Chess.dir/src/Renderer.cpp.o.d
@@ -163,8 +159,6 @@ build CMakeFiles/Chess.dir/src/Renderer.cpp.o: CXX_COMPILER__Chess_Debug /home/n
   INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
   OBJECT_DIR = CMakeFiles/Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-  TARGET_COMPILE_PDB = CMakeFiles/Chess.dir/
-  TARGET_PDB = Chess.pdb
 
 build CMakeFiles/Chess.dir/src/Piece.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Piece.cpp || cmake_object_order_depends_target_Chess
   DEP_FILE = CMakeFiles/Chess.dir/src/Piece.cpp.o.d
@@ -172,8 +166,6 @@ build CMakeFiles/Chess.dir/src/Piece.cpp.o: CXX_COMPILER__Chess_Debug /home/nama
   INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
   OBJECT_DIR = CMakeFiles/Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-  TARGET_COMPILE_PDB = CMakeFiles/Chess.dir/
-  TARGET_PDB = Chess.pdb
 
 build CMakeFiles/Chess.dir/src/Smart.cpp.o: CXX_COMPILER__Chess_Debug /home/naman/sfmlProjects/Chess/src/Smart.cpp || cmake_object_order_depends_target_Chess
   DEP_FILE = CMakeFiles/Chess.dir/src/Smart.cpp.o.d
@@ -181,8 +173,6 @@ build CMakeFiles/Chess.dir/src/Smart.cpp.o: CXX_COMPILER__Chess_Debug /home/nama
   INCLUDES = -I/home/naman/sfmlProjects/Chess/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include
   OBJECT_DIR = CMakeFiles/Chess.dir
   OBJECT_FILE_DIR = CMakeFiles/Chess.dir/src
-  TARGET_COMPILE_PDB = CMakeFiles/Chess.dir/
-  TARGET_PDB = Chess.pdb
 
 
 # =============================================================================
@@ -200,9 +190,8 @@ build Chess: CXX_EXECUTABLE_LINKER__Chess_Debug CMakeFiles/Chess.dir/src/Chess.c
   OBJECT_DIR = CMakeFiles/Chess.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Chess.dir/
   TARGET_FILE = Chess
-  TARGET_PDB = Chess.pdb
+  TARGET_PDB = Chess.dbg
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -505,8 +494,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Err.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -515,8 +502,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o: CX
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Lock.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -525,8 +510,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o: C
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Mutex.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -535,8 +518,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Sleep.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -545,8 +526,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/String.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -555,8 +534,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Thread.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -565,8 +542,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/ThreadLocal.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -575,8 +550,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Time.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -585,8 +558,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o: C
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/FileInputStream.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -595,8 +566,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStre
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/MemoryInputStream.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -605,8 +574,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputSt
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Unix/ClockImpl.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -615,8 +582,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Unix/MutexImpl.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -625,8 +590,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Unix/SleepImpl.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -635,8 +598,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Unix/ThreadImpl.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -645,8 +606,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadIm
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o: CXX_COMPILER__sfml-system_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/System/Unix/ThreadLocalImpl.cpp || cmake_object_order_depends_target_sfml-system
   DEFINES = -DSFML_SYSTEM_EXPORTS
@@ -655,8 +614,6 @@ build dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLo
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
 
 
 # =============================================================================
@@ -674,9 +631,8 @@ build dependencies/SFML/lib/libsfml-system-d.so.2.5.1: CXX_SHARED_LIBRARY_LINKER
   PRE_LINK = :
   SONAME = libsfml-system-d.so.2.5
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/
   TARGET_FILE = dependencies/SFML/lib/libsfml-system-d.so.2.5.1
-  TARGET_PDB = dependencies/SFML/lib/libsfml-system-d.pdb
+  TARGET_PDB = sfml-system-d.so.dbg
 
 
 #############################################
@@ -796,8 +752,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Context.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -806,8 +760,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Cursor.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -816,8 +768,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/EGLCheck.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -826,8 +776,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/EglContext.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -836,8 +784,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/GlContext.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -846,8 +792,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/GlResource.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -856,8 +800,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Joystick.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -866,8 +808,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/JoystickManager.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -876,8 +816,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManag
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Keyboard.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -886,8 +824,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Mouse.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -896,8 +832,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Touch.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -906,8 +840,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Sensor.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -916,8 +848,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/SensorManager.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -926,8 +856,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/VideoMode.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -936,8 +864,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Vulkan.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -946,8 +872,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Window.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -956,8 +880,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/WindowBase.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -966,8 +888,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/WindowImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -976,8 +896,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/CursorImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -986,8 +904,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorIm
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/ClipboardImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -996,8 +912,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Clipboar
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/Display.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1006,8 +920,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/InputImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1016,8 +928,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/SensorImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1026,8 +936,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorIm
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1036,8 +944,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoMod
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1046,8 +952,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanIm
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/WindowImplX11.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1056,8 +960,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowIm
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/GlxContext.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1066,8 +968,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxConte
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o: CXX_COMPILER__sfml-window_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Window/Unix/JoystickImpl.cpp || cmake_object_order_depends_target_sfml-window
   DEFINES = -DSFML_WINDOW_EXPORTS
@@ -1076,8 +976,6 @@ build dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Joystick
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/vulkan
   OBJECT_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
 
 
 # =============================================================================
@@ -1095,9 +993,8 @@ build dependencies/SFML/lib/libsfml-window-d.so.2.5.1: CXX_SHARED_LIBRARY_LINKER
   PRE_LINK = :
   SONAME = libsfml-window-d.so.2.5
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/
   TARGET_FILE = dependencies/SFML/lib/libsfml-window-d.so.2.5.1
-  TARGET_PDB = dependencies/SFML/lib/libsfml-window-d.pdb
+  TARGET_PDB = sfml-window-d.so.dbg
 
 
 #############################################
@@ -1217,8 +1114,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/Http.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1227,8 +1122,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/IpAddress.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1237,8 +1130,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/Packet.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1247,8 +1138,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/Socket.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1257,8 +1146,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/SocketSelector.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1267,8 +1154,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelec
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/TcpListener.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1277,8 +1162,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/TcpSocket.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1287,8 +1170,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/UdpSocket.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1297,8 +1178,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o: CXX_COMPILER__sfml-network_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Network/Unix/SocketImpl.cpp || cmake_object_order_depends_target_sfml-network
   DEFINES = -DSFML_NETWORK_EXPORTS
@@ -1307,8 +1186,6 @@ build dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/Socket
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src
   OBJECT_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
 
 
 # =============================================================================
@@ -1326,9 +1203,8 @@ build dependencies/SFML/lib/libsfml-network-d.so.2.5.1: CXX_SHARED_LIBRARY_LINKE
   PRE_LINK = :
   SONAME = libsfml-network-d.so.2.5
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/
   TARGET_FILE = dependencies/SFML/lib/libsfml-network-d.so.2.5.1
-  TARGET_PDB = dependencies/SFML/lib/libsfml-network-d.pdb
+  TARGET_PDB = sfml-network-d.so.dbg
 
 
 #############################################
@@ -1448,8 +1324,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Color.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1458,8 +1332,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Font.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1468,8 +1340,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Glsl.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1478,8 +1348,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/GLCheck.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1488,8 +1356,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/GLExtensions.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1498,8 +1364,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensi
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Image.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1508,8 +1372,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/ImageLoader.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1518,8 +1380,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoad
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderStates.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1528,8 +1388,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderSta
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderTexture.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1538,8 +1396,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTex
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderTarget.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1548,8 +1404,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTar
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderWindow.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1558,8 +1412,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWin
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Shader.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1568,8 +1420,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Texture.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1578,8 +1428,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/TextureSaver.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1588,8 +1436,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSa
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Transform.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1598,8 +1444,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Transformable.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1608,8 +1452,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/View.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1618,8 +1460,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Vertex.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1628,8 +1468,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Shape.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1638,8 +1476,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/CircleShape.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1648,8 +1484,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleSha
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RectangleShape.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1658,8 +1492,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Rectangle
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/ConvexShape.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1668,8 +1500,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexSha
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Sprite.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1678,8 +1508,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/Text.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1688,8 +1516,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/VertexArray.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1698,8 +1524,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArr
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/VertexBuffer.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1708,8 +1532,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuf
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderTextureImpl.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1718,8 +1540,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTex
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1728,8 +1548,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTex
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: CXX_COMPILER__sfml-graphics_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp || cmake_object_order_depends_target_sfml-graphics
   DEFINES = -DSFML_GRAPHICS_EXPORTS -DSTBI_FAILURE_USERMSG
@@ -1738,8 +1556,6 @@ build dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTex
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/stb_image -I/home/naman/sfmlProjects/Chess/dependencies/SFML/extlibs/headers/glad/include -I/usr/include/freetype2
   OBJECT_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
 
 
 # =============================================================================
@@ -1757,9 +1573,8 @@ build dependencies/SFML/lib/libsfml-graphics-d.so.2.5.1: CXX_SHARED_LIBRARY_LINK
   PRE_LINK = :
   SONAME = libsfml-graphics-d.so.2.5
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/
   TARGET_FILE = dependencies/SFML/lib/libsfml-graphics-d.so.2.5.1
-  TARGET_PDB = dependencies/SFML/lib/libsfml-graphics-d.pdb
+  TARGET_PDB = sfml-graphics-d.so.dbg
 
 
 #############################################
@@ -1867,8 +1682,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o: 
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/AlResource.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1877,8 +1690,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/AudioDevice.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1887,8 +1698,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/Listener.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1897,8 +1706,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o:
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/Music.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1907,8 +1714,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o: CX
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/Sound.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1917,8 +1722,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o: CX
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundBuffer.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1927,8 +1730,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundBufferRecorder.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1937,8 +1738,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferReco
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/InputSoundFile.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1947,8 +1746,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/OutputSoundFile.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1957,8 +1754,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundRecorder.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1967,8 +1762,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.c
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundSource.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1977,8 +1770,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundStream.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1987,8 +1778,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileFactory.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -1997,8 +1786,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactor
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileReaderFlac.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -2007,8 +1794,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReader
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileReaderOgg.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -2017,8 +1802,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReader
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileReaderWav.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -2027,8 +1810,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReader
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileWriterFlac.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -2037,8 +1818,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriter
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileWriterOgg.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -2047,8 +1826,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriter
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o: CXX_COMPILER__sfml-audio_Debug /home/naman/sfmlProjects/Chess/dependencies/SFML/src/SFML/Audio/SoundFileWriterWav.cpp || cmake_object_order_depends_target_sfml-audio
   DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_AUDIO_EXPORTS
@@ -2057,8 +1834,6 @@ build dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriter
   INCLUDES = -I/home/naman/sfmlProjects/Chess/dependencies/SFML/include -I/home/naman/sfmlProjects/Chess/dependencies/SFML/src -I/usr/include/AL
   OBJECT_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
   OBJECT_FILE_DIR = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
 
 
 # =============================================================================
@@ -2076,9 +1851,8 @@ build dependencies/SFML/lib/libsfml-audio-d.so.2.5.1: CXX_SHARED_LIBRARY_LINKER_
   PRE_LINK = :
   SONAME = libsfml-audio-d.so.2.5
   SONAME_FLAG = -Wl,-soname,
-  TARGET_COMPILE_PDB = dependencies/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/
   TARGET_FILE = dependencies/SFML/lib/libsfml-audio-d.so.2.5.1
-  TARGET_PDB = dependencies/SFML/lib/libsfml-audio-d.pdb
+  TARGET_PDB = sfml-audio-d.so.dbg
 
 
 #############################################
@@ -2193,14 +1967,14 @@ build dependencies/SFML/src/SFML/Window/all: phony dependencies/SFML/lib/libsfml
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../dependencies/SFML/CMakeLists.txt ../dependencies/SFML/cmake/Config.cmake ../dependencies/SFML/cmake/Macros.cmake ../dependencies/SFML/cmake/Modules/FindFLAC.cmake ../dependencies/SFML/cmake/Modules/FindFreetype.cmake ../dependencies/SFML/cmake/Modules/FindUDev.cmake ../dependencies/SFML/cmake/Modules/FindVORBIS.cmake ../dependencies/SFML/cmake/SFMLConfig.cmake.in ../dependencies/SFML/cmake/SFMLConfigDependencies.cmake.in ../dependencies/SFML/src/SFML/Audio/CMakeLists.txt ../dependencies/SFML/src/SFML/CMakeLists.txt ../dependencies/SFML/src/SFML/Graphics/CMakeLists.txt ../dependencies/SFML/src/SFML/Network/CMakeLists.txt ../dependencies/SFML/src/SFML/System/CMakeLists.txt ../dependencies/SFML/src/SFML/Window/CMakeLists.txt ../dependencies/SFML/tools/pkg-config/sfml-all.pc.in ../dependencies/SFML/tools/pkg-config/sfml-audio.pc.in ../dependencies/SFML/tools/pkg-config/sfml-graphics.pc.in ../dependencies/SFML/tools/pkg-config/sfml-network.pc.in ../dependencies/SFML/tools/pkg-config/sfml-system.pc.in ../dependencies/SFML/tools/pkg-config/sfml-window.pc.in /usr/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.21/Modules/CMakeCInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.21/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.21/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.21/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.21/Modules/CPack.cmake /usr/share/cmake-3.21/Modules/CPackComponent.cmake /usr/share/cmake-3.21/Modules/CheckFunctionExists.c /usr/share/cmake-3.21/Modules/CheckFunctionExists.cmake /usr/share/cmake-3.21/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU.cmake /usr/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/FindFontconfig.cmake /usr/share/cmake-3.21/Modules/FindFreetype.cmake /usr/share/cmake-3.21/Modules/FindOpenAL.cmake /usr/share/cmake-3.21/Modules/FindOpenGL.cmake /usr/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.21/Modules/FindPackageMessage.cmake /usr/share/cmake-3.21/Modules/FindPkgConfig.cmake /usr/share/cmake-3.21/Modules/FindX11.cmake /usr/share/cmake-3.21/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.21/Modules/Platform/Linux.cmake /usr/share/cmake-3.21/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake-3.21/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.21.4/CMakeCCompiler.cmake CMakeFiles/3.21.4/CMakeCXXCompiler.cmake CMakeFiles/3.21.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../dependencies/SFML/CMakeLists.txt ../dependencies/SFML/cmake/Config.cmake ../dependencies/SFML/cmake/Macros.cmake ../dependencies/SFML/cmake/Modules/FindFLAC.cmake ../dependencies/SFML/cmake/Modules/FindFreetype.cmake ../dependencies/SFML/cmake/Modules/FindUDev.cmake ../dependencies/SFML/cmake/Modules/FindVORBIS.cmake ../dependencies/SFML/cmake/SFMLConfig.cmake.in ../dependencies/SFML/cmake/SFMLConfigDependencies.cmake.in ../dependencies/SFML/src/SFML/Audio/CMakeLists.txt ../dependencies/SFML/src/SFML/CMakeLists.txt ../dependencies/SFML/src/SFML/Graphics/CMakeLists.txt ../dependencies/SFML/src/SFML/Network/CMakeLists.txt ../dependencies/SFML/src/SFML/System/CMakeLists.txt ../dependencies/SFML/src/SFML/Window/CMakeLists.txt ../dependencies/SFML/tools/pkg-config/sfml-all.pc.in ../dependencies/SFML/tools/pkg-config/sfml-audio.pc.in ../dependencies/SFML/tools/pkg-config/sfml-graphics.pc.in ../dependencies/SFML/tools/pkg-config/sfml-network.pc.in ../dependencies/SFML/tools/pkg-config/sfml-system.pc.in ../dependencies/SFML/tools/pkg-config/sfml-window.pc.in /usr/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake-3.21/Modules/CMakeCInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.21/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.21/Modules/CPack.cmake /usr/share/cmake-3.21/Modules/CPackComponent.cmake /usr/share/cmake-3.21/Modules/CheckFunctionExists.cmake /usr/share/cmake-3.21/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU.cmake /usr/share/cmake-3.21/Modules/FindFontconfig.cmake /usr/share/cmake-3.21/Modules/FindFreetype.cmake /usr/share/cmake-3.21/Modules/FindOpenAL.cmake /usr/share/cmake-3.21/Modules/FindOpenGL.cmake /usr/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.21/Modules/FindPackageMessage.cmake /usr/share/cmake-3.21/Modules/FindPkgConfig.cmake /usr/share/cmake-3.21/Modules/FindX11.cmake /usr/share/cmake-3.21/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.21/Modules/Platform/Linux.cmake /usr/share/cmake-3.21/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake-3.21/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.21.4/CMakeCCompiler.cmake CMakeFiles/3.21.4/CMakeCXXCompiler.cmake CMakeFiles/3.21.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../dependencies/SFML/CMakeLists.txt ../dependencies/SFML/cmake/Config.cmake ../dependencies/SFML/cmake/Macros.cmake ../dependencies/SFML/cmake/Modules/FindFLAC.cmake ../dependencies/SFML/cmake/Modules/FindFreetype.cmake ../dependencies/SFML/cmake/Modules/FindUDev.cmake ../dependencies/SFML/cmake/Modules/FindVORBIS.cmake ../dependencies/SFML/cmake/SFMLConfig.cmake.in ../dependencies/SFML/cmake/SFMLConfigDependencies.cmake.in ../dependencies/SFML/src/SFML/Audio/CMakeLists.txt ../dependencies/SFML/src/SFML/CMakeLists.txt ../dependencies/SFML/src/SFML/Graphics/CMakeLists.txt ../dependencies/SFML/src/SFML/Network/CMakeLists.txt ../dependencies/SFML/src/SFML/System/CMakeLists.txt ../dependencies/SFML/src/SFML/Window/CMakeLists.txt ../dependencies/SFML/tools/pkg-config/sfml-all.pc.in ../dependencies/SFML/tools/pkg-config/sfml-audio.pc.in ../dependencies/SFML/tools/pkg-config/sfml-graphics.pc.in ../dependencies/SFML/tools/pkg-config/sfml-network.pc.in ../dependencies/SFML/tools/pkg-config/sfml-system.pc.in ../dependencies/SFML/tools/pkg-config/sfml-window.pc.in /usr/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c /usr/share/cmake-3.21/Modules/CMakeCInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.21/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.21/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake-3.21/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.21/Modules/CPack.cmake /usr/share/cmake-3.21/Modules/CPackComponent.cmake /usr/share/cmake-3.21/Modules/CheckFunctionExists.c /usr/share/cmake-3.21/Modules/CheckFunctionExists.cmake /usr/share/cmake-3.21/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU.cmake /usr/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.21/Modules/FindFontconfig.cmake /usr/share/cmake-3.21/Modules/FindFreetype.cmake /usr/share/cmake-3.21/Modules/FindOpenAL.cmake /usr/share/cmake-3.21/Modules/FindOpenGL.cmake /usr/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.21/Modules/FindPackageMessage.cmake /usr/share/cmake-3.21/Modules/FindPkgConfig.cmake /usr/share/cmake-3.21/Modules/FindX11.cmake /usr/share/cmake-3.21/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.21/Modules/Platform/Linux.cmake /usr/share/cmake-3.21/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.21/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake-3.21/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.21.4/CMakeCCompiler.cmake CMakeFiles/3.21.4/CMakeCXXCompiler.cmake CMakeFiles/3.21.4/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../dependencies/SFML/CMakeLists.txt ../dependencies/SFML/cmake/Config.cmake ../dependencies/SFML/cmake/Macros.cmake ../dependencies/SFML/cmake/Modules/FindFLAC.cmake ../dependencies/SFML/cmake/Modules/FindFreetype.cmake ../dependencies/SFML/cmake/Modules/FindUDev.cmake ../dependencies/SFML/cmake/Modules/FindVORBIS.cmake ../dependencies/SFML/cmake/SFMLConfig.cmake.in ../dependencies/SFML/cmake/SFMLConfigDependencies.cmake.in ../dependencies/SFML/src/SFML/Audio/CMakeLists.txt ../dependencies/SFML/src/SFML/CMakeLists.txt ../dependencies/SFML/src/SFML/Graphics/CMakeLists.txt ../dependencies/SFML/src/SFML/Network/CMakeLists.txt ../dependencies/SFML/src/SFML/System/CMakeLists.txt ../dependencies/SFML/src/SFML/Window/CMakeLists.txt ../dependencies/SFML/tools/pkg-config/sfml-all.pc.in ../dependencies/SFML/tools/pkg-config/sfml-audio.pc.in ../dependencies/SFML/tools/pkg-config/sfml-graphics.pc.in ../dependencies/SFML/tools/pkg-config/sfml-network.pc.in ../dependencies/SFML/tools/pkg-config/sfml-system.pc.in ../dependencies/SFML/tools/pkg-config/sfml-window.pc.in /usr/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake-3.21/Modules/CMakeCInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake-3.21/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.21/Modules/CPack.cmake /usr/share/cmake-3.21/Modules/CPackComponent.cmake /usr/share/cmake-3.21/Modules/CheckFunctionExists.cmake /usr/share/cmake-3.21/Modules/CheckLibraryExists.cmake /usr/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Compiler/GNU.cmake /usr/share/cmake-3.21/Modules/FindFontconfig.cmake /usr/share/cmake-3.21/Modules/FindFreetype.cmake /usr/share/cmake-3.21/Modules/FindOpenAL.cmake /usr/share/cmake-3.21/Modules/FindOpenGL.cmake /usr/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.21/Modules/FindPackageMessage.cmake /usr/share/cmake-3.21/Modules/FindPkgConfig.cmake /usr/share/cmake-3.21/Modules/FindX11.cmake /usr/share/cmake-3.21/Modules/GNUInstallDirs.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.21/Modules/Platform/Linux.cmake /usr/share/cmake-3.21/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake-3.21/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.21.4/CMakeCCompiler.cmake CMakeFiles/3.21.4/CMakeCXXCompiler.cmake CMakeFiles/3.21.4/CMakeSystem.cmake: phony
 
 
 #############################################
