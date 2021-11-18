@@ -6,6 +6,7 @@
 #include "Bishop.h"
 #include "Queen.h"
 #include "Rook.h"
+#include "King.h"
 
 class Smart
 {

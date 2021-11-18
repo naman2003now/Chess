@@ -37,6 +37,12 @@ std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 	case BLACK_ROOK:
 		Rook::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
 		break;
+	case WHITE_KING:
+		King::addMoves(possibleMoves, sf::Vector2i(x, y), true, board, black_castle, white_castle);
+		break;
+	case BLACK_KING:
+		King::addMoves(possibleMoves, sf::Vector2i(x, y), false, board, black_castle, white_castle);	
+		break;
 	}
 	return possibleMoves;
 }
@@ -67,10 +73,26 @@ void Smart::move(sf::Vector2i fromHere, sf::Vector2i toHere) // Please make sure
 	case WHITE_KING:
 		white_castle[0] = false;
 		white_castle[1] = false;
+		if(fromHere.x == 3 && toHere.x == 1){
+			board[0][7] = EMPTY;
+			board[2][7] = WHITE_ROOK;
+		}
+		if(fromHere.x == 3 && toHere.x == 5){
+			board[7][7] = EMPTY;
+			board[4][7] = WHITE_ROOK;
+		}
 		break;
 	case BLACK_KING:
 		black_castle[0] = false;
 		black_castle[1] = false;
+		if(fromHere.x == 3 && toHere.x == 1){
+			board[0][0] = EMPTY;
+			board[2][0] = BLACK_ROOK;
+		}
+		if(fromHere.x == 3 && toHere.x == 5){
+			board[7][0] = EMPTY;
+			board[4][0] = WHITE_ROOK;
+		}
 		break;
 	case BLACK_PAWN:
 		if(abs(fromHere.x - toHere.x) == 1){
