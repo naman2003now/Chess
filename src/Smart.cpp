@@ -4,6 +4,7 @@
 std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 {
 	std::vector<sf::Vector2i> possibleMoves;
+	bool isMoveWhite = false;
 	switch (board[x][y]) {
 	case EMPTY:
 		break;
@@ -12,39 +13,51 @@ std::vector<sf::Vector2i> Smart::getPossibleMoves(int x, int y)
 		break;
 	case WHITE_PAWN:
 		Pawn::addMoves(possibleMoves, sf::Vector2i(x, y), true, board, black_enpassant, white_enpassant);
+		isMoveWhite = true;
 		break;
 	case BLACK_KNIGHT:
 		Knight::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
 		break;
 	case WHITE_KNIGHT:
 		Knight::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		isMoveWhite = true;
 		break;
 	case BLACK_BISHOP:
 		Bishop::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
 		break;
 	case WHITE_BISHOP:
 		Bishop::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		isMoveWhite = true;
 		break;
 	case BLACK_QUEEN:
 		Queen::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
 		break;
 	case WHITE_QUEEN:
 		Queen::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		isMoveWhite = true;
 		break;
 	case WHITE_ROOK:
 		Rook::addMoves(possibleMoves, sf::Vector2i(x, y), true, board);
+		isMoveWhite = true;
 		break;
 	case BLACK_ROOK:
 		Rook::addMoves(possibleMoves, sf::Vector2i(x, y), false, board);
 		break;
 	case WHITE_KING:
 		King::addMoves(possibleMoves, sf::Vector2i(x, y), true, board, black_castle, white_castle);
+		isMoveWhite = true;
 		break;
 	case BLACK_KING:
 		King::addMoves(possibleMoves, sf::Vector2i(x, y), false, board, black_castle, white_castle);	
 		break;
 	}
-	return possibleMoves;
+	std::vector<sf::Vector2i> checkedPossibleMoves;
+	for(int i = 0; i < possibleMoves.size(); i++){
+		if(!(King::isCheck(sf::Vector2i(x, y), possibleMoves[i], isMoveWhite, board))){
+			checkedPossibleMoves.push_back(possibleMoves[i]);
+		}
+	}
+	return checkedPossibleMoves;
 }
 
 void Smart::move(sf::Vector2i fromHere, sf::Vector2i toHere) // Please make sure the move is possible
