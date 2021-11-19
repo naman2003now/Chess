@@ -61,7 +61,7 @@ namespace Pawn{
             //Diagonal kill
             if ((int)board[position.x - 1][position.y + 1] >= (int)'A'
                 && (int)board[position.x - 1][position.y + 1] <= (int)'Z') {
-                moves.push_back(sf::Vector2i(position.x + 1, position.y + 1));
+                moves.push_back(sf::Vector2i(position.x - 1, position.y + 1));
             }
             if ((int)board[position.x + 1][position.y + 1] >= (int)'A'
                 && (int)board[position.x + 1][position.y + 1] <= (int)'Z') {
