@@ -28,6 +28,8 @@ private:
 	sf::RenderWindow *window;
 	void drawBoard();
 	sf::RectangleShape selected;
+	sf::Vector2i selectedInteger;
+
 public:
 	Renderer();
 	~Renderer();
@@ -40,4 +42,3 @@ public:
 	void addPiece(Piece piece);
 	void select(sf::Vector2i);
 };
-
